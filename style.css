@@ -17,6 +17,7 @@ html, body {
   z-index: 2;
   position: fixed;
   width: 100%;
+  min-height: 45px;
 }
 
 .nav {
