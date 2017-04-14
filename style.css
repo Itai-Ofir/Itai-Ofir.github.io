@@ -11,6 +11,7 @@ html, body {
 
 .header {
   background-color: rgb(55,71,79);
+  position: absolute;
 }
 
 .nav {
@@ -54,6 +55,7 @@ h1 {
   color: SteelBlue;
   font-family: 'Syncopate', sans-serif;
   font-size: 70px;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 80px;
   text-transform: uppercase;
