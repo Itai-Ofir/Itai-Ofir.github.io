@@ -4,7 +4,8 @@ html, body {
 }
 
 .container {
-  max-width: 940px;
+  max-width: 100%;
+  min-height: 45px;
   margin: 0 auto;
   padding: 0 10px;
 }
