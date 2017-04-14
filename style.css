@@ -10,7 +10,7 @@ html, body {
 }
 
 .header {
-  background-color: #333;
+  background-color: rgb(55,71,79);
 }
 
 .nav {
@@ -53,7 +53,6 @@ h1 {
 .main h1 {
   color: SteelBlue;
   font-family: 'Syncopate', sans-serif;
-  //font-weight: 200;
   font-size: 70px;
   margin-top: 0;
   margin-bottom: 80px;
