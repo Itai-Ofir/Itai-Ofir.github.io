@@ -33,6 +33,10 @@ html, body {
   text-transform: uppercase;
 }
 
+li:hover {
+  color: rgb(159,197,232);
+}
+
 .cover {
   background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
   background-size: cover;
