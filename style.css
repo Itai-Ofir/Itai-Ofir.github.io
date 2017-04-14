@@ -18,6 +18,7 @@ html, body {
   margin: 0;
   padding: 20px 0;
   left: 100px;
+  position: relative;
 }
 
 .nav li {
