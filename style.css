@@ -41,8 +41,9 @@ html, body {
   text-align: center;
 }
 
+//rgb(159,197,232)
 h1 {
-  color: rgb(159,197,232);
+  color: SteelBlue;
   font-family: 'Syncopate', sans-serif;
 }
 
