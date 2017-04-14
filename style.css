@@ -41,7 +41,8 @@ li:hover {
 }
 
 .cover {
-  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  //background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  background: url(Front_Page_Background.jpg) no-repeat center center;
   background-size: cover;
   height: 800px;
 }
