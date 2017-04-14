@@ -17,6 +17,7 @@ html, body {
 
 .nav {
   list-style-type: none;
+  background-color: rgb(55,71,79);
   margin: 0;
   padding: 20px 0;
   //left: 500px;
@@ -29,7 +30,7 @@ html, body {
   display: inline;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 18px;
   margin-right: 25px;
   text-transform: uppercase;
 }
