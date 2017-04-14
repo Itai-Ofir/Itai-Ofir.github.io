@@ -29,6 +29,12 @@ html, body {
   text-transform: uppercase;
 }
 
+.cover {
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+}
+
 .main {
   position: relative;
   top: 180px;
