@@ -36,3 +36,19 @@ h1 {
   text-align: center;
   width: 100%;
 }
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: rgb(159,197,232);
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
