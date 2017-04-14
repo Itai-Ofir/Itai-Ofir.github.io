@@ -21,7 +21,6 @@ html, body {
   margin: 0;
   padding: 20px 0;
   //left: 500px;
-  float: right;
   position: relative;
 }
 
@@ -32,6 +31,7 @@ html, body {
   font-weight: 600;
   font-size: 14px;
   margin-right: 25px;
+  float: right;
   text-transform: uppercase;
 }
 
