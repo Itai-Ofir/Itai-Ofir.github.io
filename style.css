@@ -12,6 +12,8 @@ html, body {
 .header {
   background-color: rgb(55,71,79);
   position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 .nav {
