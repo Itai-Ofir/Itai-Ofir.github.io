@@ -20,8 +20,8 @@ html, body {
   background-color: rgb(55,71,79);
   margin: 0;
   padding: 20px 0;
-  //left: 500px;
-  position: relative;
+  position: absolute;
+  right: 0px;
 }
 
 .nav li {
