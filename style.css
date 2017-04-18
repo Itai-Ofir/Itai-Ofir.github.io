@@ -49,11 +49,6 @@ li:link {
   text-decoration: none;
 }
 
-.about {
-  color: #fff;
-  text-decoration: none;
-}
-
 .cover {
   background: url(field.jpg) no-repeat center center;
   background-size: cover;
