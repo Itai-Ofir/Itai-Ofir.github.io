@@ -20,7 +20,15 @@ html, body {
   min-height: 45px;
 }
 
+.home {
+  display: inline-block;
+  left: 0px;
+  background: url(Gardroid_Title.png) no-repeat center center;
+  background-size: cover;
+}
+
 .nav {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 20px 0;
