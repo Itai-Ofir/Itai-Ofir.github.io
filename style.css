@@ -41,6 +41,10 @@ html, body {
   text-decoration: none;
 }
 
+li:hover {
+  color: rgb(159,197,232);
+}
+
 li:link {
   color: #fff;
   text-decoration: none;
@@ -51,7 +55,7 @@ li:link {
   text-decoration: none;
 }
 
-li:hover {
+.about:hover, .project:hover, .team:hover, .acknowledgements:hover, .contact:hover {
   color: rgb(159,197,232);
 }
 
