@@ -27,7 +27,7 @@ html, body {
 }
 
 img.home-image {
-  padding-top: 5px;
+  margin-top: 5px;
   height: 35px;
   width: auto;
 }
@@ -36,7 +36,7 @@ img.home-image {
   display: inline-block;
   list-style-type: none;
   margin: 0;
-  padding: 10px 0;
+  padding: 8px 0;
   position: absolute;
   right: 0px;
 }
@@ -69,9 +69,21 @@ li:hover {
   text-decoration: none;
 }
 
+
 .about:hover, .project:hover, .team:hover, .acknowledgements:hover, .contact:hover {
   color: rgb(159,197,232);
   background-color: transparent;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+}
+
+.nav>li>a:hover {
+    color: rgb(159,197,232);
+    background-color: transparent;
 }
 
 .cover {
