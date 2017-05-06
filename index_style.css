@@ -61,6 +61,7 @@ li:link {
 
 li:hover {
   color: rgb(159,197,232);
+  background-color: transparent;
 }
 
 .about, .project, .team, .acknowledgements, .contact {
@@ -70,6 +71,7 @@ li:hover {
 
 .about:hover, .project:hover, .team:hover, .acknowledgements:hover, .contact:hover {
   color: rgb(159,197,232);
+  background-color: transparent;
 }
 
 .cover {
