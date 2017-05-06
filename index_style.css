@@ -104,3 +104,8 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.carousel {
+    position: relative;
+    width: 60%;
+}
