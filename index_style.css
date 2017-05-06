@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 45px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: rgb(55,71,79);
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  min-height: 45px;
+}
+
+.home {
+  display: inline-block;
+  left: 0px;
+  margin-right: 20px;
+}
+
+img.home-image {
+  padding-top: 5px;
+  height: 35px;
+  width: auto;
+}
+
+.nav {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  right: 0px;
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 25px;
+  float: right;
+  margin-top: -5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover {
+  color: rgb(159,197,232);
+}
+
+.about, .project, .team, .acknowledgements, .contact {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about:hover, .project:hover, .team:hover, .acknowledgements:hover, .contact:hover {
+  color: rgb(159,197,232);
+}
+
+.cover {
+  background: url(field.jpg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+.main {
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+//rgb(159,197,232)
+h1 {
+  color: SteelBlue;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.main h1 {
+  color: rgb(159,197,232);
+  font-family: 'Syncopate', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
