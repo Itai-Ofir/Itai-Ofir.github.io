@@ -84,6 +84,7 @@ li:hover {
   position: relative;
   top: 70px;
   text-align: center;
+  background-color: rgb(55,71,79);
 }
 
 //rgb(159,197,232)
@@ -95,11 +96,12 @@ h1 {
 .main h1 {
   color: rgb(159,197,232);
   font-family: 'Syncopate', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0px;
   font-weight: 100;
+  padding-top: 5px;
 }
 
 img {
