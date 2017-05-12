@@ -33,6 +33,11 @@ img.home-image {
   width: auto;
 }
 
+img.team-photo {
+  width: 75%;
+  padding-bottom: 10px;
+}
+
 
 .nav {
   display: inline-block;
