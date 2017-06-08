@@ -88,7 +88,7 @@ li:hover {
     background-color: transparent;
 }
 .cover {
-  background: url(field.jpg) no-repeat center center fixed;
+  background: url(assets/field.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 700px;
 }
@@ -143,4 +143,19 @@ img {
     position: relative;
     width: 60%;
     margin: auto;
+}
+
+.carousel-caption p {
+  color: #d9edf7;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: rgba(59, 62, 66, 0.6);
+  text-align: center;
+  width: 100%;
+  margin-left: -5px;
+
 }

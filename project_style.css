@@ -88,9 +88,15 @@ li:hover {
     background-color: transparent;
 }
 .cover {
-  background: url(field.jpg) no-repeat center center fixed;
+  background: url(assets/Field.jpg) no-repeat center center ;
   background-size: cover;
   height: 700px;
+}
+
+.gearCover {
+  background: url(assets/gears.gif) no-repeat center center ;
+  background-size: cover;
+  height: 100%;
 }
 
 .main {
