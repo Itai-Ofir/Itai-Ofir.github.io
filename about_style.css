@@ -27,6 +27,26 @@ body {
   min-height: 45px;
 }
 
+.footer {
+  background-color: rgb(55,71,79);
+  width: 100%;
+  min-height: 30px;
+  margin-top: 50px;
+}
+
+.footer p {
+  color: rgb(159,197,232);
+  font-family: sans-serif;
+  margin: 0px 0px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+  text-align: center;
+}
+
 .home {
   display: inline-block;
   left: 0px;
