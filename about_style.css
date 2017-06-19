@@ -3,6 +3,13 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-image:url(assets/field.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   max-width: 100%;
   min-height: 45px;
@@ -88,16 +95,19 @@ li:hover {
     background-color: transparent;
 }
 .cover {
-  background: url(assets/field.jpg) no-repeat center center fixed;
-  background-size: cover;
+  /*background: url(assets/field.jpg) no-repeat center center fixed;*/
+  /*background-size: cover;*/
   height: 700px;
+  overflow: scroll;
 }
 
 .main {
-  position: relative;
-  top: 70px;
+  position: static;
+  margin-top: 70px;
   text-align: center;
-  background-color: rgb(55,71,79);
+  background-color: rgb(60,76,84); /*all rgb values 5 more than header color*/
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 //rgb(159,197,232)
@@ -132,6 +142,9 @@ p {
   font-family: sans-serif;
   margin: 0px 30px;
   padding-bottom: 5px;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -158,4 +171,14 @@ img {
   width: 100%;
   margin-left: -5px;
 
+}
+
+.carousel-indicators {
+    bottom: -10px;
+}
+
+.carousel-caption {
+    right: 10%;
+    left: 10%;
+    padding-bottom: 0px;
 }
