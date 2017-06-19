@@ -20,6 +20,27 @@ html, body {
   min-height: 45px;
 }
 
+.footer {
+  background-color: rgb(55,71,79);
+  width: 100%;
+  min-height: 30px;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  color: rgb(159,197,232);
+  font-family: sans-serif;
+  margin: 0px 0px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+  text-align: center;
+}
+
 .home {
   display: inline-block;
   left: 0px;
@@ -97,7 +118,9 @@ li:hover {
   position: relative;
   top: 70px;
   text-align: center;
-  background-color: rgb(55,71,79);
+  background-color: rgb(60,76,84); /*all rgb values 5 more than header color*/
+  width: 60%;
+  margin: auto;
 }
 
 //rgb(159,197,232)
@@ -139,8 +162,14 @@ img {
   margin: 0 auto;
 }
 
-.carousel {
-    position: relative;
-    width: 60%;
-    margin: auto;
+.contactContainer {
+
+}
+
+.col-md-offset-3 {
+    margin-left: 10%;
+}
+
+.col-md-6 {
+    width: 80%;
 }

@@ -173,7 +173,7 @@ img {
 }
 
 .row {
-  margin: 20px 5px;
+  margin: 80px 5px;
 }
 
 .col{
@@ -194,7 +194,8 @@ img {
 }
 
 .rowLink:hover {
-  color: rgb(182,220,255);
+  /*color: rgb(182,220,255);*/
+  color: rgb(255,234,234);
   text-decoration: underline;
 }
 
@@ -210,4 +211,8 @@ img {
   padding-bottom: 5px;
   width: 80%;
   text-align: left;
+}
+
+.rowImg {
+  width: 100%;
 }
