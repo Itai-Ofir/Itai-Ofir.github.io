@@ -103,7 +103,12 @@
             </a>
           </div>
 
-          <p><br>leorum ipsum<br></p>
+          <p><br>As the world population increases, new innovations are required to handle the agricultural
+            strain; here at Gardroid we think that one day autonomous robots will play a key role in helping farms
+            keep up with these growing demands. Armed with temperature and moisture sensors, Charolette
+            can gather the necessary information to better chose suitable locations for planting, and with an
+            onboard chamber of seeds and devlivery system, she can also plant seeds in the ground. Read here to
+            learn about our journey in creating Charolette and everything we learned along the way.<br></p>
 
 
           <!-- Begining Concept -->
@@ -115,7 +120,7 @@
                   student had the oppurtunity to propose a project idea. The list of projects
                   were then narrowed down with the help of the Professor and TA until 4 teams
                   were formed, each with their own project to complete.<br><br>
-                Our team decided to pursue the team leader's proposal for a gardeining hexapod,
+                Our team decided to pursue team leader Itai's proposal for a gardeining hexapod,
                 and the rest was history.</p>
               </div>
             </div>
@@ -206,6 +211,252 @@
             </div>
           </div>
 
+          <!-- PCB Design -->
+          <div class="row">
+            <div class="col">
+              <div class="rowText">
+                <h2>Designing PCBs</h2>
+                <p>As the Winter 2017 Quarter began our team studied PCB design using
+                  <a class="rowLink" href="https://www.autodesk.com/products/eagle/overview">Eagle CAD</a>, and afterwards
+                  we had our design fabricated by <a class="rowLink" href="https://oshpark.com/">OSH Park</a>.
+                  We designed a PCB to help manage power distribution and signal wiring to the motors on
+                  each leg. Each leg had one of these PCBs handling the three servo motors of the leg,
+                  totaling in 6 PCBs on Charolette.</p>
+              </div>
+            </div>
+            <div class="col">
+              <img class="rowImg" src="assets/pcb.png" alt="od">
+              <div class="row-caption">
+                <p>A PCB that distributes power and signals to a leg's servos</p>
+              </div>
+            </div>
+          </div>
+
+
+          <h2>Frame Design</h2>
+          <p>By now we had spent some time learning how to use
+            <a class="rowLink" href="https://www.blender.org/">Blender</a>, a free 3D modeling
+            design suite. Using Blender we fully designed our own original frame that we
+            fabricated using 3D Pritners at the <a class="rowLink" href="acknowledgements.html">Engineering Fabrication Lab</a>.
+            </head>
+          </p>
+
+
+          <!-- Frame Design: Servo Cap -->
+          <div class="row">
+            <div class="col">
+              <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel3" data-slide-to="1"></li>
+                  <li data-target="#myCarousel3" data-slide-to="2"></li>
+                  <li data-target="#myCarousel3" data-slide-to="3"></li>
+                  <li data-target="#myCarousel3" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="assets/blender/servo_cap_underside.png">
+                    <div class="carousel-caption">
+                      <p>The inside of the servo cap is hollow to accomodate the servo's circuitry</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/servo_cap_inside.png">
+                    <div class="carousel-caption">
+                      <p>The hexagonal hole is deep enough to accomodate a bolt head</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/servo_cap_render.png">
+                    <div class="carousel-caption">
+                      <p>A rendering of the finished model</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/servo_caps_printing.gif">
+                    <div class="carousel-caption">
+                      <p>The servos are printed 4 at a time in at the Engineering Fabrication Lab</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/servo_cap_printed.png">
+                    <div class="carousel-caption" alt="audienceCaption">
+                      <p>The printed servo cap</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rowText">
+                <h2>Servo Caps</h2>
+                <p>The smallest piece we designed, a servo cap is meant to replace the backside of the
+                housing of a servo motor. The servo cap has a hexagonal hole that fits the head of an M4
+                size hex-bolt, which acts as an axel for pivoting around the motor.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frame Design: Coxa -->
+          <div class="row">
+            <div class="col">
+              <div class="rowText">
+                <h2>Coxa</h2>
+                <p>This joint is the closest of each leg to the body; it houses two servos at right angles
+                to each other, allowing the leg to pivot at the point of contact to the body both
+                horizontaly and vertically.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel4" data-slide-to="1"></li>
+                  <li data-target="#myCarousel4" data-slide-to="2"></li>
+                  <li data-target="#myCarousel4" data-slide-to="3"></li>
+                  <li data-target="#myCarousel4" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="assets/blender/coxa_wire_mounts.png">
+                    <div class="carousel-caption">
+                      <p>The design process begins by drawing edges as a wire frame</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/coxa_mounts.png">
+                    <div class="carousel-caption">
+                      <p>Holes are made through the coxa to mount servo motors</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/coxa_rendering.png">
+                    <div class="carousel-caption">
+                      <p>A rendering of the finished coxa</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/coxa_printing.gif">
+                    <div class="carousel-caption">
+                      <p>A coxa printing at the Engineering Fabrication Lab</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/coxa.jpg">
+                    <div class="carousel-caption">
+                      <p>The printed coxa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frame Design: Femur -->
+          <div class="row">
+            <div class="col">
+              <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel5" data-slide-to="1"></li>
+                  <li data-target="#myCarousel5" data-slide-to="2"></li>
+                  <li data-target="#myCarousel5" data-slide-to="3"></li>
+                  <li data-target="#myCarousel5" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="assets/blender/femur_wire.png">
+                    <div class="carousel-caption">
+                      <p>Designing the femurs begins with a 2D drawing that is then extruded to hold volume</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/femur_extruding.png">
+                    <div class="carousel-caption">
+                      <p>After the 2D edges are extruded to form walls, the top and bottom faces are bridged</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/femur_rendering.png">
+                    <div class="carousel-caption">
+                      <p>A rendering of the finished femurs, with a mirrored version for each side of the leg</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/femur_printing.gif">
+                    <div class="carousel-caption">
+                      <p>A femur printing at the Engineering Fabrication Lab</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="assets/blender/femur_assembled.jpg">
+                    <div class="carousel-caption" alt="audienceCaption">
+                      <p>The printed femur assembled to the coxa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel5" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel5" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rowText">
+                <h2>Femur</h2>
+                <p>The femurs form the middle section of the leg, connecting to a servo motor
+                at each end. The end that connects tot he coxa allows the leg as a whole to pivot
+                vertically, and the end that connects to the tibia enables the leg to reach outwards and inwards.</p>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>

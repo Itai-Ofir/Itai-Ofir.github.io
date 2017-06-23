@@ -169,6 +169,7 @@ p {
   width: 72%;
   margin-left: auto;
   margin-right: auto;
+  font-size: medium;
 }
 
 img {
@@ -219,14 +220,14 @@ img {
 
 .col{
   float: left;
-  width: 50%;
-  margin-left: 0px;
+  width: 45%;
+  margin-left: 2.5%;
 }
 
 .col + .col{
   float: left;
-  width: 50%;
-  margin-left: 0px;
+  width: 45%;
+  margin-left: 5%;
 }
 
 .rowLink {
@@ -252,6 +253,7 @@ img {
   padding-bottom: 5px;
   width: 80%;
   text-align: left;
+  font-size: medium;
 }
 
 .rowText {
