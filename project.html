@@ -721,7 +721,7 @@
                 </div>
 
                 <div class="item">
-                  <img src="assets/sensors/planter.jpg">
+                  <img src="assets/sensors/seed.gif">
                   <div class="carousel-caption">
                     <p>The planter acts like a needle that is opened and closed by a small servo
                        by blocking the needle</p>
@@ -760,7 +760,7 @@
         </div>
         <div class="col">
           <div class="rowText">
-            <h2>Speaker</h2>
+            <h2>Speaking</h2>
             <p>In the interest of personifying our project and gibing her character, we created
                over 73 unique voice actions with an original synthesized voice. These voice actions
                range from reading out sensor results to greetings and more like the one below.<br><br></p>
@@ -772,8 +772,101 @@
         </div>
       </div>
 
+      <!-- Speaker -->
+      <div class="row">
+        <div class="col">
+          <div class="rowText">
+            <h2>Walking</h2>
+            <p>As the hexapod is based on 6 legged insects, understandably our process
+               began by watching lots of videos of insects walking. After watching many videos of insects and
+               doing some reading we came upon the metachronal gait: First the 6 legs are spilt into two groups of 3;
+               two outer legs on one side, and the middle leg on the opposite side. starting wiht the front leg of one group,
+               that leg takes a step forward while the rest push back on the ground. After that leg, the middle leg in the group
+               takes a step forward, then the back leg. After the last leg in the group takes a step, the next group starts from the front.
+               The program that controls the motors runs on the Arduino Mega, which recieves input on what action to take from the Raspberry Pi.</p>
+          </div>
+        </div>
+        <div class="col">
+          <video width="480" height="360" controls>
+            <source src="assets/walking.webm" type="video/webm">
+            <source src="assets/walking.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Frame Design: Box -->
+      <div class="row">
+        <div class="col">
+          <div id="myCarousel10" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel10" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel10" data-slide-to="1"></li>
+              <li data-target="#myCarousel10" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/box/box_building.jpg">
+                <div class="carousel-caption">
+                  <p>The team assembles the box</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="assets/box/box_charolette.jpg">
+                <div class="carousel-caption">
+                  <p>Charolette inspects the painted product</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="assets/charolette_in_box.png">
+                <div class="carousel-caption">
+                  <p>Charolette sits pleased in her box</p>
+                </div>
+              </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel10" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel10" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="rowText">
+          <h2>Planter Box</h2>
+          <p>Now that we we were wrapping up building Charolette, we needed a box for her to work in.
+             With lots of wood, piant, and soil, we put together a 6' by 4' planter that we used to demo
+             Charolette. After our presentations we continued to water the seeds that she planted and they
+             grew into edible crop: lettuce, buckwheat, and California Poppies (cause who doesn't like flowers).</p>
+        </div>
       </div>
     </div>
+
+        <h2><a class="rowLink" href="https://picnicday.ucdavis.edu/">Picnic Day</a></h2>
+        <p>Held every year in April of Spring Quarter, Picnic Day is an annual day of celebration for the city and an open-house
+           for the university. On this day thousands of people come on campus to see different exhibits and shows
+           put on by every department in the school. As part of the Electrical and Computer Engineering department,
+           we presented our work and demoed Charolette all day in front of the crowd as a finale to our year long journey.</p>
+        <video width="400" height="400" controls>
+          <source src="assets/picnicDay/best_video.webm" type="video/webm">
+          <source src="assets/picnicDay/best_video.mp4" type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
+        <p><br></p>
+      </div>
+    </div>
+
+    <p><br><br></p>
 
     <div class="footer">
       <p>© 2017 Gardroid at UC Davis</p>
