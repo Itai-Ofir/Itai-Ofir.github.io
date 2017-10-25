@@ -116,7 +116,7 @@ li:hover {
 .cover {
   /*background: url(assets/field.jpg) no-repeat center center fixed;*/
   /*background-size: cover;*/
-  height: 700px;
+  //height: 700px;
   overflow: scroll;
 }
 
